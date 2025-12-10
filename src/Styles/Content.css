@@ -1,0 +1,8 @@
+/* @import "tailwindcss";
+.input {
+    @apply border border-white rounded-2xl px-2 py-3 text-xl text-white;
+}
+
+.btn {
+    @apply px-2 py-3 border border-white rounded-2xl transition;
+} */

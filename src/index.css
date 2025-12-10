@@ -1,0 +1,18 @@
+@import "tailwindcss";
+body{
+    @apply bg-blue-500 text-white;
+}
+
+.input{
+    @apply border border-white rounded-2xl px-2 py-3 text-xl;
+    @variant placeholder{
+        @apply text-slate-200 text-white;
+    }
+}
+.btn{
+    @apply px-2 py-3 border border-white rounded-2xl;
+    
+    @variant hover {
+        @apply bg-blue-700 transition;
+    }
+}
