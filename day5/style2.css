@@ -1,0 +1,22 @@
+.container{
+    font-size: 30px;
+}
+#formInputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+#inp1, #inp2, #inp3, #inp4{
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 50px;
+    /* &&:hover{ }/* #inp1:hover */
+}
+#inp4:hover{
+    background-color: rgb(35, 35, 178);
+    color: white;
+}
